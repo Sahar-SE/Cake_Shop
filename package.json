@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sahar-SE/Cake_Shop/issues"
   },
-  "homepage": "https://github.com/Sahar-SE/Cake_Shop#readme"
+  "homepage": "https://github.com/Sahar-SE/Cake_Shop#readme",
+  "dependencies": {
+    "redux": "^4.2.1"
+  }
 }
