@@ -15,3 +15,7 @@ function buyCake() {
 const initialState = {
     numOfCakes: 10
 }
+
+const reducer = () => {
+   
+}
