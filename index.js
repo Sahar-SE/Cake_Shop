@@ -40,6 +40,7 @@ const reducer = (state = initialState, action) => {
     }
     switch(action.type) {
         case BUY_ICECREAM: return {
+            ...state,
 }
 
 const store = createStore(reducer)
