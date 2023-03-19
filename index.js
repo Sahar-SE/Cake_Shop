@@ -38,6 +38,8 @@ const reducer = (state = initialState, action) => {
         }
         default: return state
     }
+    switch(action.type) {
+    
 }
 
 const store = createStore(reducer)
