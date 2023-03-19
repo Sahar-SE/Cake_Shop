@@ -1,0 +1,23 @@
+{
+  "name": "cake_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahar-SE/Cake_Shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahar-SE/Cake_Shop/issues"
+  },
+  "homepage": "https://github.com/Sahar-SE/Cake_Shop#readme",
+  "dependencies": {
+    "redux": "^4.2.1"
+  }
+}
