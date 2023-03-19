@@ -20,6 +20,8 @@ function buyCake() {
     }
 }
 
+function buyIceCream() {
+
 const initialState = {
     numOfCakes: 10,
     numOfIceCreams: 20
