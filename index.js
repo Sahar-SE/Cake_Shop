@@ -15,7 +15,8 @@ function buyCake() {
 }
 
 const initialState = {
-    numOfCakes: 10
+    numOfCakes: 10,
+    numOfIceCreams: 20
 }
 
 const reducer = (state = initialState, action) => {
