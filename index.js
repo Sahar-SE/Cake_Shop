@@ -41,6 +41,7 @@ const reducer = (state = initialState, action) => {
     switch(action.type) {
         case BUY_ICECREAM: return {
             ...state,
+            numOfIceCreams: state.numOfIceCreams - 1
 }
 
 const store = createStore(reducer)
