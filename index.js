@@ -4,10 +4,13 @@ const createStore = redux.createStore
 const BUY_CAKE = 'BUY_CAKE'
 const BUY_ICECREAM = 'BUY_ICECREAM'
 
-
 {
     type: BUY_CAKE;
     info: 'First redux action'
+}
+
+{
+    type: BUY_ICECREAM;
 }
 
 function buyCake() {
