@@ -23,6 +23,7 @@ function buyCake() {
 function buyIceCream() {
     return {
         type: BUY_ICECREAM
+    }
 
 const initialState = {
     numOfCakes: 10,
