@@ -24,6 +24,7 @@ function buyIceCream() {
     return {
         type: BUY_ICECREAM
     }
+}
 
 const initialState = {
     numOfCakes: 10,
@@ -36,6 +37,9 @@ const reducer = (state = initialState, action) => {
             ...state,
             numOfCakes: state.numOfCakes - 1
         }
+        case BUY_ICECREAM: return {
+            ...state,
+            numOfIceCreams: state.numOfIceCreams - 1
         default: return state
     }
     switch(action.type) {
