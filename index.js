@@ -39,7 +39,7 @@ const reducer = (state = initialState, action) => {
         default: return state
     }
     switch(action.type) {
-    
+        case BUY_ICECREAM: return {
 }
 
 const store = createStore(reducer)
