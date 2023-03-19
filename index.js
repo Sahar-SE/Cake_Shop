@@ -21,6 +21,7 @@ function buyCake() {
 }
 
 function buyIceCream() {
+    return {
 
 const initialState = {
     numOfCakes: 10,
