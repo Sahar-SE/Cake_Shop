@@ -1,1 +1,1 @@
-console.log("from index.js")
+const BUY_CAKE = 'BUY_CAKE'
