@@ -42,6 +42,9 @@ const reducer = (state = initialState, action) => {
         case BUY_ICECREAM: return {
             ...state,
             numOfIceCreams: state.numOfIceCreams - 1
+        }
+        default: return state
+        
 }
 
 const store = createStore(reducer)
