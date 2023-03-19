@@ -44,7 +44,8 @@ const reducer = (state = initialState, action) => {
             numOfIceCreams: state.numOfIceCreams - 1
         }
         default: return state
-        
+    }
+
 }
 
 const store = createStore(reducer)
@@ -53,4 +54,9 @@ store.subscribe(() => console.log('Updated state', store.getState()))
 store.dispatch(buyCake())
 store.dispatch(buyCake())
 store.dispatch(buyCake())
+store.dispatch(buyIceCream())
+store.dispatch(buyIceCream())
+store.dispatch(buyIceCream())
+store.dispatch(buyIceCream())
+store.dispatch(buyIceCream())
 unsubscribe()
