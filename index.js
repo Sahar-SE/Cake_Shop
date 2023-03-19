@@ -1,3 +1,4 @@
+const redux = require('redux')
 const BUY_CAKE = 'BUY_CAKE'
 
 {
