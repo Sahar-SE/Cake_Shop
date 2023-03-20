@@ -38,7 +38,7 @@ const initialCakeState = {
 const initialIceCreamState = {
     numOfIceCreams: 20
 }
-const cakeReducer = (state = initialState, action) => {
+const cakeReducer = (state = initialCakeState, action) => {
     switch(action.type) {
         case BUY_CAKE: return {
             ...state,
