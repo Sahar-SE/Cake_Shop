@@ -31,6 +31,10 @@ const initialState = {
     numOfIceCreams: 20
 }
 
+const initialCakeState = {
+    numOfCakes: 10
+}
+
 const reducer = (state = initialState, action) => {
     switch(action.type) {
         case BUY_CAKE: return {
