@@ -46,15 +46,10 @@ const cakeReducer = (state = initialCakeState, action) => {
         }
         default: return state
     }
-
 }
 
 const icecreamReducer = (state = initialIcecreamState, action) => {
     switch(action.type) {
-        case BUY_CAKE: return {
-            ...state,
-            numOfCakes: state.numOfCakes - 1
-        }
         case BUY_ICECREAM: return {
             ...state,
             numOfIceCreams: state.numOfIceCreams - 1
