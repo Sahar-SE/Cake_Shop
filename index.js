@@ -53,7 +53,7 @@ const cakeReducer = (state = initialCakeState, action) => {
 
 }
 
-const icecreamReducer = (state = initialState, action) => {
+const icecreamReducer = (state = initialIcecreamState, action) => {
     switch(action.type) {
         case BUY_CAKE: return {
             ...state,
