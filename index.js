@@ -26,10 +26,10 @@ function buyIceCream() {
     }
 }
 
-const initialState = {
-    numOfCakes: 10,
-    numOfIceCreams: 20
-}
+// const initialState = {
+//     numOfCakes: 10,
+//     numOfIceCreams: 20
+// }
 
 const initialCakeState = {
     numOfCakes: 10
@@ -56,7 +56,6 @@ const icecreamReducer = (state = initialIcecreamState, action) => {
         }
         default: return state
     }
-
 }
 
 const store = createStore(reducer)
