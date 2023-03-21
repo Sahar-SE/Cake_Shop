@@ -13,3 +13,5 @@ const fetchUsersRequest = () => {
       type:  FETCH_USERS_REQUEST
     }
 }
+
+const fetchUsersSuccess = users => {
