@@ -1,5 +1,6 @@
 const redux = require('redux')
 const createStore = redux.createStore
+const reduxLogger = require('redux-logger')
 const combineReducers = redux.combineReducers
 
 
