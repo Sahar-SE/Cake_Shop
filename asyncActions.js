@@ -20,3 +20,5 @@ const fetchUsersSuccess = users => {
         payload: users
     }
 }
+
+const fetchUsersFailure = error => {
