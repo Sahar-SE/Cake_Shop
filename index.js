@@ -59,7 +59,9 @@ const icecreamReducer = (state = initialIcecreamState, action) => {
         default: return state
     }
 }
-const rootReducer = combineReducers({})
+const rootReducer = combineReducers({
+    cake: cakeReducer
+})
 const store = createStore(reducer)
 console.log('Initial state', store.getState())
 store.subscribe(() => console.log('Updated state', store.getState()))
