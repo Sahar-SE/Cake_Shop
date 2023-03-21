@@ -4,4 +4,4 @@ const initialState = {
     error: ''
 }
 
-const 
+const FETCH_USERS_REQUEST = 'FETCH_USERS_REQUEST'
