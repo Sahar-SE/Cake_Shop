@@ -27,3 +27,7 @@ const fetchUsersFailure = error => {
         payload: error
     }
 }
+
+const reducer() => {
+    
+}
