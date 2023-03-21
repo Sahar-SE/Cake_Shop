@@ -10,6 +10,6 @@ const FETCH_USERS_FAILURE = 'FETCH_USERS_FAILURE'
 
 const fetchUsersRequest = () => {
     return {
-        FETCH_USERS_REQUEST
+      type:  FETCH_USERS_REQUEST
     }
 }
