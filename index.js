@@ -37,7 +37,7 @@ const initialCakeState = {
     numOfCakes: 10
 }
 
-const initialIceCreamState = {
+const initialIcecreamState = {
     numOfIceCreams: 20
 }
 const cakeReducer = (state = initialCakeState, action) => {
