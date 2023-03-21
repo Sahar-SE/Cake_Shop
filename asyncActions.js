@@ -1,5 +1,7 @@
 const initialState = {
     loading: false,
-    data: [],
+    users: [],
     error: ''
 }
+
+const 
