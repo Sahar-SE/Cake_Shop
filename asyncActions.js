@@ -1,3 +1,3 @@
 const initialState = {
-    
+    loading: false,
 }
