@@ -28,6 +28,6 @@ const fetchUsersFailure = error => {
     }
 }
 
-const reducer() => {
-    
+const reducer(state = initialState, action) => {
+    switch(action.type)
 }
