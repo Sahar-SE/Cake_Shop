@@ -37,7 +37,7 @@ const initialCakeState = {
     numOfCakes: 10
 }
 
-const initialIceCreamState = {
+const initialIcecreamState = {
     numOfIceCreams: 20
 }
 const cakeReducer = (state = initialCakeState, action) => {
@@ -59,8 +59,11 @@ const icecreamReducer = (state = initialIcecreamState, action) => {
         default: return state
     }
 }
-const rootReducer = combineReducers({})
-const store = createStore(reducer)
+const rootReducer = combineReducers({
+    cake: cakeReducer,
+    icecream: icecreamReducer
+})
+const store = createStore(rootReducer)
 console.log('Initial state', store.getState())
 store.subscribe(() => console.log('Updated state', store.getState()))
 store.dispatch(buyCake())
