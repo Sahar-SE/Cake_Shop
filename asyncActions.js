@@ -39,10 +39,12 @@ const reducer(state = initialState, action) => {
             return {
                 loading: false,
                 users: action.payload,
+                error: ''
             }
         case FETCH_USERS_FAILURE:
             return {
                 loading: false,
+
 
     }
 }
