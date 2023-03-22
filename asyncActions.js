@@ -1,5 +1,6 @@
 const redux = require('redux')
 const createStore = redux.createStore
+const applyMiddleware = redux.applyMiddleware
 
 const initialState = {
     loading: false,
@@ -31,7 +32,7 @@ const fetchUsersFailure = error => {
     }
 }
 
-const reducer(state = initialState, action) => {
+const reducer = (state = initialState, action) => {
     switch(action.type){
         case FETCH_USERS_REQUEST:
             return {
@@ -56,7 +57,7 @@ const reducer(state = initialState, action) => {
     }
 }
 
-const store = createStore(reducer)
+const store = createStore(reducer, applyMiddleware()
 store.subscribe(() => {console.log(store.getState())})
 store.dispatch(fetchUsersRequest())
 store.dispatch(fetchUsersSuccess())
