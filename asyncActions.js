@@ -35,6 +35,8 @@ const reducer(state = initialState, action) => {
                 ...state,
                 loading: true
             }
+        case FETCH_USERS_SUCCESS:
+            
 
     }
 }
