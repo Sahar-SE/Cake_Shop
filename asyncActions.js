@@ -58,3 +58,4 @@ const reducer(state = initialState, action) => {
 
 const store = createStore(reducer)
 store.subscribe(() => {console.log(store.getState())})
+store.dispatch(fetchUsersRequest())
