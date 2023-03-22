@@ -38,6 +38,7 @@ const reducer(state = initialState, action) => {
         case FETCH_USERS_SUCCESS:
             return {
                 loading: false,
+                users: action.payload,
 
     }
 }
