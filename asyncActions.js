@@ -1,3 +1,6 @@
+const redux = require('redux')
+const createStore = redux.createStore
+
 const initialState = {
     loading: false,
     users: [],
@@ -35,6 +38,20 @@ const reducer(state = initialState, action) => {
                 ...state,
                 loading: true
             }
+        case FETCH_USERS_SUCCESS:
+            return {
+                loading: false,
+                users: action.payload,
+                error: ''
+            }
+        case FETCH_USERS_FAILURE:
+            return {
+                loading: false,
+                users: [],
+                error: action.payload
+            }
+        default: return state
+
 
     }
 }
