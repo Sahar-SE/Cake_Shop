@@ -1,5 +1,6 @@
 const redux = require('redux')
 const createStore = redux.createStore
+const applyMiddleware = redux.applyMiddleware
 
 const initialState = {
     loading: false,
