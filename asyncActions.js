@@ -45,6 +45,8 @@ const reducer(state = initialState, action) => {
             return {
                 loading: false,
                 users: [],
+                error: action.payload
+            }
 
 
     }
