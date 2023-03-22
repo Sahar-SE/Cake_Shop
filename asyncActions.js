@@ -55,3 +55,5 @@ const reducer(state = initialState, action) => {
 
     }
 }
+
+const store = createStore(reducer)
