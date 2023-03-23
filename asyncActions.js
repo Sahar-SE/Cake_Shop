@@ -1,7 +1,7 @@
 const redux = require('redux')
 const createStore = redux.createStore
 const applyMiddleware = redux.applyMiddleware
-// const thunkMiddleware = require('redux-thunk').default
+const thunkMiddleware = require('redux-thunk').default
 
 const initialState = {
     loading: false,
