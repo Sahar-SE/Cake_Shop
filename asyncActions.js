@@ -66,6 +66,9 @@ const fetchUsers = () => {
             // response.data is the array of users
             const users = response.data.map(user => user.id)
 
+        })
+        .catch(error => {
+
 
 
 const store = createStore(reducer, applyMiddleware(thunkMiddleware),
