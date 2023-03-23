@@ -54,12 +54,11 @@ const reducer = (state = initialState, action) => {
             }
         default: return state
 
-
     }
 }
 
-const store = createStore(reducer, applyMiddleware(),
+const store = createStore(reducer, applyMiddleware(thunkMiddleware),
 store.subscribe(() => {console.log(store.getState())}),
 store.dispatch(fetchUsersRequest()),
 store.dispatch(fetchUsersSuccess()),
-store.dispatch(fetchUsersFailure()),
+store.dispatch(fetchUsersFailure())
