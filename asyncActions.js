@@ -60,6 +60,7 @@ const reducer = (state = initialState, action) => {
 
 const fetchUsers = () => {
     return function(dispatch) {
+        dispatch(fetchUsersRequest())
 
 const store = createStore(reducer, applyMiddleware(thunkMiddleware),
 store.subscribe(() => {console.log(store.getState())}),
