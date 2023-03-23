@@ -68,6 +68,7 @@ const fetchUsers = () => {
 
         })
         .catch(error => {
+            // error.message is the error description
 
 
 
