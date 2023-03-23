@@ -61,10 +61,8 @@ const reducer = (state = initialState, action) => {
 const fetchUsers = () => {
     return function(dispatch) {
         axios.get('https://jsonplaceholder.typicode.com/users')
+        .then(response => {
 
 
 const store = createStore(reducer, applyMiddleware(thunkMiddleware),
 store.subscribe(() => {console.log(store.getState())}),
-store.dispatch(fetchUsersRequest()),
-store.dispatch(fetchUsersSuccess()),
-store.dispatch(fetchUsersFailure())
