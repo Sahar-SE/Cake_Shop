@@ -63,6 +63,7 @@ const fetchUsers = () => {
         axios.get('https://jsonplaceholder.typicode.com/users')
         .then(response => {
             // response.data is the array of users
+            const users = response.data.map(user => user.id)
 
 
 const store = createStore(reducer, applyMiddleware(thunkMiddleware),
