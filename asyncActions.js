@@ -1,6 +1,7 @@
 const redux = require('redux')
 const createStore = redux.createStore
 const applyMiddleware = redux.applyMiddleware
+// const thunkMiddleware = require('redux-thunk').default
 
 const initialState = {
     loading: false,
@@ -57,8 +58,8 @@ const reducer = (state = initialState, action) => {
     }
 }
 
-const store = createStore(reducer, applyMiddleware()
-store.subscribe(() => {console.log(store.getState())})
-store.dispatch(fetchUsersRequest())
-store.dispatch(fetchUsersSuccess())
-store.dispatch(fetchUsersFailure())
+const store = createStore(reducer, applyMiddleware(),
+store.subscribe(() => {console.log(store.getState())}),
+store.dispatch(fetchUsersRequest()),
+store.dispatch(fetchUsersSuccess()),
+store.dispatch(fetchUsersFailure()),
