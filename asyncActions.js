@@ -71,9 +71,9 @@ const fetchUsers = () => {
             // error.message is the error description
             dispatch(fetchUsersFailure(error.message))
         })
+    }
+}
 
-
-
-const store = createStore(reducer, applyMiddleware(thunkMiddleware)
+const store = createStore(reducer, applyMiddleware(thunkMiddleware))
 store.subscribe(() => {console.log(store.getState())})
 store.dispatch(fetchUsers())
