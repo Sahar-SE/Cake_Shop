@@ -10,9 +10,7 @@ This project is just for pacticing React/Redux. In this project we will learn:
 - Webpack
 - Jest
 
-## Live Demo (Heroku) 💻
-- [Live Demo](https://redux-h.herokuapp.com/)
-- [Video](https://drive.google.com/file/d/1uLP1O-SsjV0MefNjApHnsp_v3mrmgrwc/view?usp=sharing)
+## Live Demo
 
 
 To get a local copy up and running follow these simple example steps.
@@ -44,7 +42,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## Acknowledgments
 
-- [Original design idea by Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- MIT
 - Inspiration
 - etc
 
