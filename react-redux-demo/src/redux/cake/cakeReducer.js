@@ -3,5 +3,7 @@ const initialState = {
 }
 
 const cakeReducer = (state = initialState, action) => {
-
+    switch(action.type){
+        
+    }
 }
