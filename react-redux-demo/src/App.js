@@ -5,7 +5,7 @@ import { Store } from 'redux';
 
 function App() {
   return (
-    <Provider>
+    <Provider store={store}>
       <div className="App">
         <CakeContainer />
       </div>
