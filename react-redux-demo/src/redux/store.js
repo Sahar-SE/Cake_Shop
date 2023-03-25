@@ -1,3 +1,3 @@
 import { createStore} from 'redux'
-
-const store = createStore(reducer)
+import { cakeReducer } from './cake/cakeReducer'
+const store = createStore(cakeReducer)
