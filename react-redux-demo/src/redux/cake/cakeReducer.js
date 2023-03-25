@@ -2,6 +2,6 @@ const initialState = {
     numOfCakes: 10
 }
 
-const cakeReducer = (state) => {
+const cakeReducer = (state = initialState, action) => {
 
 }
