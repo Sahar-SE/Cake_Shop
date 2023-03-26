@@ -15,8 +15,8 @@ const mapStateToProps = state => {
   }
 }
 
-const mapDispatchToProps = action => {
-  
+const mapDispatchToProps = dispatch => {
+
 }
 
 export default CakeContainer
