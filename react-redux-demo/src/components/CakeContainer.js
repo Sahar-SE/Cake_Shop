@@ -10,7 +10,9 @@ function CakeContainer() {
 }
 
 const mapStateToProps = () => {
-
+  return {
+    numOfCakes: state.numOfCakes
+  }
 }
 
 export default CakeContainer
