@@ -9,4 +9,8 @@ function CakeContainer() {
   )
 }
 
+const mapStateToProps = () => {
+
+}
+
 export default CakeContainer
