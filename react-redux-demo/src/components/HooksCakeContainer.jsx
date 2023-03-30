@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 
 function HooksCakeContainer() {
-    useSelector(state => state.numOfCakes)
+  const numOfCakes = useSelector(state => state.numOfCakes)
   return (
     <div>
       <h2>Number of Cakes-</h2>
