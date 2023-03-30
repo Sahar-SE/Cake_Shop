@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux'
 
 
 function HooksCakeContainer() {
+    useSelector(state => state.numOfCakes)
   return (
-    useSelector()
     <div>
       <h2>Number of Cakes-</h2>
       <button>BuyCake!</button>
