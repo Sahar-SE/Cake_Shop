@@ -1,5 +1,7 @@
 import iceAction from "./iceActions";
 
-const initialState = {}
+const initialState = {
+    numOfIceCream: 10
+}
 
 const iceReducer = () => {}
