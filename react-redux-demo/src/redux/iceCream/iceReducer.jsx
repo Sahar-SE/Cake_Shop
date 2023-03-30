@@ -4,4 +4,4 @@ const initialState = {
     numOfIceCream: 10
 }
 
-const iceReducer = () => {}
+const iceReducer = (state = initialState) => {}
