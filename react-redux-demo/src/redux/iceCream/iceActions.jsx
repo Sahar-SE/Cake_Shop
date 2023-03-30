@@ -5,3 +5,5 @@ const iceAction = () => {
         type: BUY_ICECREAM
     }
 }
+
+export default iceAction
