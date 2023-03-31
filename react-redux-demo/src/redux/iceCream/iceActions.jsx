@@ -1,7 +1,7 @@
 import { BUY_ICECREAM } from './iceTypes'
 
 export const buyIceCream = () => {
-//     return {
-//         type: BUY_ICECREAM
-//     }
-// }
+    return {
+        type: BUY_ICECREAM
+    }
+}
