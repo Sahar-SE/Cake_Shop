@@ -2,7 +2,7 @@ import cakeReducer from "./cake/cakeReducer";
 import iceReducer from "./iceCream/iceReducer";
 
 const rootReducer = () => {
-//     return {
+    return {
 //     cake: cakeReducer,
 //     iceCream: iceReducer
 //     }
