@@ -5,7 +5,7 @@ const rootReducer = () => {
     return {
     cake: cakeReducer,
     iceCream: iceReducer
-//     }
-// }
+    }
+}
 
-// export default rootReducer
+export default rootReducer
