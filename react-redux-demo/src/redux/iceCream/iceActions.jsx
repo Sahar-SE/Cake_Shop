@@ -1,9 +1,7 @@
 import { BUY_ICECREAM } from './iceTypes'
 
-const iceAction = () => {
+export const buyIceCream = () => {
     return {
         type: BUY_ICECREAM
     }
 }
-
-export default iceAction
