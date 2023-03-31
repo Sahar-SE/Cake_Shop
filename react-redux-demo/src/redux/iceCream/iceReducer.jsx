@@ -14,4 +14,4 @@ const iceReducer = (state = initialState, action) => {
     }
 }
 
-// export default iceReducer
+export default iceReducer
