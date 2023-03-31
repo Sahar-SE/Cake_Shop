@@ -1,5 +1,5 @@
 import cakeReducer from "./cake/cakeReducer";
-// import iceReducer from "./iceCream/iceReducer";
+import iceReducer from "./iceCream/iceReducer";
 
 // const rootReducer = () => {
 //     return {
