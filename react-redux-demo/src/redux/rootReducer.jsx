@@ -3,7 +3,7 @@ import iceReducer from "./iceCream/iceReducer";
 
 const rootReducer = () => {
     return {
-//     cake: cakeReducer,
+    cake: cakeReducer,
 //     iceCream: iceReducer
 //     }
 // }
