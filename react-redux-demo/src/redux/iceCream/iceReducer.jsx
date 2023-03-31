@@ -1,8 +1,8 @@
 import { BUY_ICECREAM } from "./iceTypes";
 
-// const initialState = {
-//     numOfIceCreams: 10
-// }
+const initialState = {
+    numOfIceCreams: 10
+}
 
 // const iceReducer = (state = initialState, action) => {
 //     switch (action.type) {
