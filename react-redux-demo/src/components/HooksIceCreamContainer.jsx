@@ -4,6 +4,7 @@ function HooksIceCreamContainer() {
   return (
     <div>
       <h2>Number of IceCreams - </h2>
+      <button>Buy IceCream</button>
     </div>
   )
 }
