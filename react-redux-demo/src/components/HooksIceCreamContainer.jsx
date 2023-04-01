@@ -4,7 +4,8 @@ import { useDispatch } from 'react-redux'
 
 function HooksIceCreamContainer() {
   const numOfIceCreams = useSelector(state => state.iceCream.numOfIceCreams)
-  return (
+  const dispatch = useDispatch(dispatch => dispatch(buyIceCream()))
+    return (
     <div>
       <h2>Number of IceCreams - </h2>
       <button>Buy IceCream</button>
