@@ -7,7 +7,7 @@ function HooksIceCreamContainer() {
   const dispatch = useDispatch(dispatch => dispatch(buyIceCream()))
     return (
     <div>
-      <h2>Number of IceCreams - </h2>
+      <h2>Number of IceCreams - {numOfIceCreams} </h2>
       <button>Buy IceCream</button>
     </div>
   )
