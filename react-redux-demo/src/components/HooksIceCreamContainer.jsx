@@ -5,12 +5,12 @@ import { buyIceCream } from '../redux'
 
 function HooksIceCreamContainer() {
   const numOfIceCreams = useSelector(state => state.iceCream.numOfIceCreams)
-  const dispatch = useDispatch(dispatch => dispatch(buyIceCream()))
+  const dispatch = useDispatch()
 
     return (
     <div>
       <h2>Number of IceCreams - {numOfIceCreams} </h2>
-      <button onClick={dispatch}>Buy IceCream</button>
+      <button onClick={dispatch => dispatch(buyIceCream())}>Buy IceCream</button>
     </div>
   )
 }
