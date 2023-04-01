@@ -8,7 +8,7 @@ function HooksIceCreamContainer() {
     return (
     <div>
       <h2>Number of IceCreams - {numOfIceCreams} </h2>
-      <button>Buy IceCream</button>
+      <button onClick={dispatch}>Buy IceCream</button>
     </div>
   )
 }
