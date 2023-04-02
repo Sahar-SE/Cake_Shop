@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { connect} from 'react-redux'
 import  { buyCake } from '../redux'
 
-function newCakeContainer(props) {
+function NewCakeContainer(props) {
   const [number, setNumber] = useState(1)
   return (
     <div>
@@ -27,4 +27,4 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(newCakeContainer)
+export default connect(mapStateToProps, mapDispatchToProps)(NewCakeContainer)
