@@ -3,6 +3,7 @@ import { connect} from 'react-redux'
 import  { buyCake } from '../redux'
 
 function newCakeContainer(props) {
+  const [number, setNumber] = useState(1)
   return (
     <div>
       <h2>Number of Cakes - {props.numOfCakes}</h2>
