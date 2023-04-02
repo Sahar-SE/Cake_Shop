@@ -2,7 +2,7 @@ import React from 'react'
 import { connect} from 'react-redux'
 import  { buyCake } from '../redux'
 
-function CakeContainer(props) {
+function newCakeContainer(props) {
   return (
     <div>
       <h2>Number of Cakes - {props.numOfCakes}</h2>
@@ -24,3 +24,5 @@ const mapDispatchToProps = dispatch => {
     }
   }
 }
+
+export default connect(mapStateToProps, mapDispatchToProps)(newCakeContainer)
