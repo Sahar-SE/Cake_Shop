@@ -7,5 +7,10 @@ function ItemContainer() {
       </div>
     )
   }
+
+  const mapStateToProps = (state, ownProps) => {
+    const itemState = ownProps.cake ? state.cake.numOfCakes
+
+  }
   
   export default ItemContainer
