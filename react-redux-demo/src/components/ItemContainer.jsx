@@ -18,4 +18,4 @@ function ItemContainer(props) {
 
   }
   
-  export default ItemContainer
+  export default connect(mapStateToProps)(ItemContainer)
