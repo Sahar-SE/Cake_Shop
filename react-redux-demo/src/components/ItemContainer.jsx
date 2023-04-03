@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ItemContainer() {
+function ItemContainer(props) {
     return (
       <div>
         <h2>Item - {props.item}</h2>
