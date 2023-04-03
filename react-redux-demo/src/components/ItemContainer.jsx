@@ -9,7 +9,7 @@ function ItemContainer() {
   }
 
   const mapStateToProps = (state, ownProps) => {
-    const itemState =
+    const itemState = ownProps.cake
 
   }
   
