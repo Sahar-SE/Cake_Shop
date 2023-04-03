@@ -18,7 +18,7 @@ function App() {
         <IceCreamContainer />
         <HooksIceCreamContainer />
         <NewCakeContainer />
-        
+        <ItemContainer />
       </div>
     </Provider>
   );
