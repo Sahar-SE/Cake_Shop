@@ -11,6 +11,10 @@ function ItemContainer() {
   const mapStateToProps = (state, ownProps) => {
     const itemState = ownProps.cake ? state.cake.numOfCakes : state.iceCream.numOfIceCream
 
+    return {
+        
+    }
+
   }
   
   export default ItemContainer
