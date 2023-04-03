@@ -12,7 +12,7 @@ function ItemContainer() {
     const itemState = ownProps.cake ? state.cake.numOfCakes : state.iceCream.numOfIceCream
 
     return {
-        item:
+        item: itemState
     }
 
   }
